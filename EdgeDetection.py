@@ -60,7 +60,7 @@ for i in range(c-3+1):
             for l in range(3):
                 sum+=sobel_y[k][l]*img_arr[j+k][i+l]
                 
-plt.imshow(edges)
+plt.imshow(img_arr)
 plt.show()
 
 
