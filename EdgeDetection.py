@@ -59,7 +59,7 @@ for i in range(c-3+1):
         for k in range(3):
             for l in range(3):
                 sum+=sobel_y[k][l]*img_arr[j+k][i+l]
-           img_arr[i+1][j+1]=sum 
+        img_arr[i+1][j+1]=sum 
                 
 plt.imshow(img_arr)
 plt.show()
